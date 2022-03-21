@@ -1,52 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Awesome Books</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <section>
-        <h1>Awesome Books</h1>
-        <div>
-            <div class="books__list">
-                <!-- <div>
-                    <h4>Title By Author</h4>
-                    <button>Remove</button>
-                </div>
-                <br />
-                <div>
-                    <h4>Title By Author</h4>
-                    <button>Remove</button>
-                </div> -->
-            </div>
-            <br />
-            <!-- <form class="newbook__form">
-                <label for="book"></label>
-                <input type="text" name="book" id="book" placeholder="Title" />
-                <br />
-                <label for="author"></label>
-                <input type="text" name="author" id="author" placeholder="Author" />
-                <br />
-                <input type="submit" id="submit" value="Add" />
-            </form> -->
-            <div class="newbook__form">
-                <label for="book"></label>
-                <input type="text" name="book" id="book" placeholder="Title" />
-                <br />
-                <label for="author"></label>
-                <input type="text" name="author" id="author" placeholder="Author" />
-                <br />
-                <input type="submit" id="submit" value="Add" />
-            </div>
+      <h1>Awesome Books</h1>
+      <div>
+        <div class="books__list"></div>
+        <br />
+
+        <div class="newbook__form">
+          <label for="book"></label>
+          <input type="text" name="book" class="data" id="book" placeholder="Title" />
+          <br />
+          <label for="author"></label>
+          <input type="text" name="author" class="data" id="author" placeholder="Author" />
+          <br />
+          <input type="submit" id="submit" value="Add" />
         </div>
+      </div>
     </section>
 
     <script type="text/javascript" src="./js/main.js"></script>
-</body>
-
+  </body>
 </html>

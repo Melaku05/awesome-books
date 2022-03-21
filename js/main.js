@@ -3,28 +3,33 @@ const addBtn = document.querySelector('#submit');
 const book = document.querySelector('#book');
 const author = document.querySelector('#author');
 
-let BooksObject = [{}];
+let BooksObject = [];
 
 function loadContent() {
   booksList.innerHTML = '';
-  console.log(JSON.stringify(BooksObject));
-  BooksObject.forEach(function (obj) {
-    booksList.innerHTML += `<div>
+  BooksObject.forEach(function (obj, index) {
+    booksList.innerHTML += `<div class="${index}">
                     <h4>${obj.title}</h4>
                     <h3>${obj.author}</h3>
-                    <button>Remove</button>
+                    <button type="button" onclick="removeBook(this.parentElement)" id="removeBtn">Remove</button>
                 </div>`;
   });
 }
 
 function addNewBook() {
-  BooksObject.push({ title: book.value, author: author.value });
+  BooksObject.push({ id: BooksObject.length, title: book.value, author: author.value });
   loadContent();
 }
 
-function removeBook() {}
+function removeBook(element) {
+  let id = element.className;
+  element.remove();
+  BooksObject.splice(parseInt(id), 1);
+}
 
 function updateLocalStorage() {}
+
+updateLocalStorage();
 
 addBtn.addEventListener('click', addNewBook);
 
