@@ -30,16 +30,13 @@ function addNewBook() {
   updateLocalStorage();
   loadContent();
 }
-/* eslint-disable */
 
 function removeBook(element) {
   const id = element.parentElement.className;
   element.remove();
-  BooksObject.splice(parseInt(id), 1);
+  BooksObject.splice(id, 1);
   updateLocalStorage();
 }
-
-/* eslint-enable */
 
 function checkLocalStorage() {
   if (JSON.parse(localStorage.getItem(KEY)) != null) {
