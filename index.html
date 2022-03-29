@@ -1,33 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
     <title>Awesome Books</title>
-</head>
+  </head>
 
-<body>
-    <section>
-        <h1>Awesome Books</h1>
+  <body>
+    <header class="header-container">
+      <nav class="navigation">
+        <h2>Awesome Books</h2>
+        <ul class="menu">
+          <li class="list">List</li>
+          <li class="gap-line add">Add New</li>
+          <li class="contact">Contact</li>
+        </ul>
+      </nav>
+      <div id="date"></div>
+    </header>
+    <main>
+      <section class="container">
         <div>
+          <div class="books">
+            <h1 class="pad">All awesome books</h1>
             <div class="books__list"></div>
-            <br />
+          </div>
+          <!-- <div class="add-book">
+          <h1 class="pad">Add a new book</h1>
 
-            <div class="newbook__form">
-                <label for="book"></label>
-                <input type="text" name="book" class="data" id="book" placeholder="Title" />
-                <br />
-                <label for="author"></label>
-                <input type="text" name="author" class="data" id="author" placeholder="Author" />
-                <br />
-                <input type="submit" id="submit" value="Add" />
-            </div>
+          <div class="newbook__form">
+            <label for="book"></label>
+            <input type="text" name="book" class="data" id="book" placeholder="Title" />
+            <br />
+            <label for="author"></label>
+            <input type="text" name="author" class="data" id="author" placeholder="Author" />
+            <br />
+            <input type="submit" class="text-1 btn" id="submit" value="Add" />
+          </div>
+        </div> -->
         </div>
-    </section>
+        <div class="add-book hide">
+          <h1 class="pad">Add a new book</h1>
+
+          <div class="newbook__form">
+            <label for="book"></label>
+            <input
+              type="text"
+              name="book"
+              class="data"
+              id="book"
+              placeholder="Title"
+            />
+            <br />
+            <label for="author"></label>
+            <input
+              type="text"
+              name="author"
+              class="data"
+              id="author"
+              placeholder="Author"
+            />
+            <br />
+            <input type="submit" class="text-1 btn" id="submit" value="Add" />
+          </div>
+        </div>
+
+        <div class="contact-info hide">
+          <h2 class="contact-text-1">Contact Information</h2>
+          <p class="contact-p">
+            Do you have any questions or you just want to say "Hello"? You can
+            reach out to us!
+          </p>
+          <ul>
+            <li>Our email : awesome-books@awesome.com</li>
+            <li>Our phone number : 004-358-6534422</li>
+            <li>Our address : Streetname 100, 12345 City, Country</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer__container">
+        <h2>Copyright &copy; Mohammed, Ranjit & Melaku</h2>
+      </div>
+    </footer>
 
     <script src="./js/main.js"></script>
-</body>
-
+  </body>
 </html>

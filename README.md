@@ -3,33 +3,23 @@
 # Awesome-books
 
 This is a web site for storing books and authors.
-
-# Who is IT.LIVE
-
-It is the first Iraqi conference concerned with raising various issues
-related to information technology, as this field
-has not been addressed across the country through previous conferences and activities, and this is
-what our conference
-aims to achieve.
-What can we look forward to in #IT_Live_2017?
-There will be a number of experts in this field discussing different topics, a number of
-competitions, entertainment
-events and gifts, companies and individuals with experience in this field who will present their
-ideas and other
-activities that will be announced soon.
-When is the conference date?
-End of February 2017, dates and times will be announced soon along with the application form for
-attendees and speakers.
+User can add books to the website and see the books in the book list page.
 
 # Screen Shots
 
 ## Desktop Version
 
-> Comming Soon.
+- Desktop version
+
+  ![Screenshot (445)](https://user-images.githubusercontent.com/91287179/159675358-0bbce16f-ebeb-4710-89f4-93ba3119b4ef.png)
+  ![Screenshot (446)](https://user-images.githubusercontent.com/91287179/159675377-c971df79-157f-4d25-b716-d6d982c9312f.png)
+  ![Screenshot (447)](https://user-images.githubusercontent.com/91287179/159675394-341d0ce3-ceb1-4f21-a72b-2611e8d6ac11.png)
 
 ## Mobile Version
 
-> Comming Soon.
+-Mobile version
+
+> ![Screenshot (448)](https://user-images.githubusercontent.com/91287179/159677310-47b9ecc6-ce50-4df5-bb52-1aa2e8fed7f0.png)
 
 ## Built With &hearts;
 
@@ -54,16 +44,25 @@ to test or run the application double click on the `index.html` file to open in 
 
 ## Authors
 
-👤 **Author**
+👤 **Mohammed Salah**
 
 - GitHub: [@Mo7amedSMahdi](https://github.com/Mo7amedSMahdi)
 - Twitter: [@devMo7amed](https://twitter.com/devMo7amed)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohammed-mahdi-b20340162/)
 
-## 🤝 Contributing
+👤 **Ranjit Luwang**
 
-Thanks for [@Mayengbam Ranjit Luwang](https://github.com/aboongm)
-for Helping me with this project.
+- GitHub: [@aboongm](https://github.com/aboongm)
+- Twitter: [@John_luang1](https://twitter.com/John_luang1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mayengbam-ranjit-luwang-31962418/)
+
+👤 **Melaku Eshetu**
+
+- GitHub: [@melaku05](https://github.com/melaku05)
+- Twitter: [@melaku](https://twitter.com/melaku05)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/melaku-eshetu-b34b36223/)
+
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
